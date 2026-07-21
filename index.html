@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CodeAlpha Music Player</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-circle one"></div>
+
+<div class="background-circle two"></div>
+
+<div class="container">
+
+<div class="player">
+
+<div class="top-bar">
+
+<h2>
+
+<i class="fa-solid fa-music"></i>
+
+Music Player
+
+</h2>
+
+<button id="themeBtn">
+
+<i class="fa-solid fa-moon"></i>
+
+</button>
+
+</div>
+
+<div class="cover-section">
+
+<div class="vinyl"></div>
+
+<img
+id="cover"
+src="images/cover1.jpg"
+alt="Album Cover">
+
+</div>
+
+<div class="song-details">
+
+<h2 id="title">
+
+Dream Escape
+
+</h2>
+
+<p id="artist">
+
+Alex Productions
+
+</p>
+
+</div>
+
+<div class="visualizer">
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+<span></span>
+
+</div>
+
+<audio id="audio"></audio>
+
+<div class="progress-wrapper">
+
+<span id="currentTime">
+
+0:00
+
+</span>
+
+<div
+class="progress-container"
+id="progressContainer">
+
+<div
+class="progress"
+id="progress">
+
+</div>
+
+</div>
+
+<span id="duration">
+
+0:00
+
+</span>
+
+</div>
+<div class="controls">
+
+<button id="shuffle" title="Shuffle">
+
+<i class="fa-solid fa-shuffle"></i>
+
+</button>
+
+<button id="prev" title="Previous">
+
+<i class="fa-solid fa-backward-step"></i>
+
+</button>
+
+<button id="play" title="Play">
+
+<i class="fa-solid fa-play"></i>
+
+</button>
+
+<button id="next" title="Next">
+
+<i class="fa-solid fa-forward-step"></i>
+
+</button>
+
+<button id="repeat" title="Repeat">
+
+<i class="fa-solid fa-repeat"></i>
+
+</button>
+
+</div>
+
+<div class="extra-buttons">
+
+<button id="favorite" title="Favorite">
+
+<i class="fa-regular fa-heart"></i>
+
+</button>
+
+<button id="mute" title="Mute">
+
+<i class="fa-solid fa-volume-high"></i>
+
+</button>
+
+</div>
+
+<div class="volume-section">
+
+<i class="fa-solid fa-volume-low"></i>
+
+<input
+type="range"
+id="volume"
+min="0"
+max="1"
+step="0.01"
+value="1">
+
+<i class="fa-solid fa-volume-high"></i>
+
+</div>
+
+<div class="playlist-section">
+
+<div class="playlist-header">
+
+<h3>
+
+<i class="fa-solid fa-list"></i>
+
+Playlist
+
+</h3>
+
+<span id="songCount">
+
+5 Songs
+
+</span>
+
+</div>
+
+<ul id="playlist">
+
+<li class="active">
+
+<i class="fa-solid fa-play"></i>
+
+Dream Escape
+
+</li>
+
+<li>
+
+Night Drive
+
+</li>
+
+<li>
+
+Summer Chill
+
+</li>
+
+<li>
+
+Future Bass
+
+</li>
+
+<li>
+
+Morning Coffee
+
+</li>
+
+</ul>
+
+</div>
+
+<p class="credit">
+
+Developed with ❤️ by
+
+<strong>Aneesh Rao S V</strong>
+
+</p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
