@@ -192,7 +192,7 @@ CodeAlpha_MusicPlayer/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/your-username/CodeAlpha_MusicPlayer.git
+git clone https://github.com/aneeshrao0207/CodeAlpha_MusicPlayer.git
 ```
 
 ---
