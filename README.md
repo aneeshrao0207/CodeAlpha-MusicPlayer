@@ -28,7 +28,7 @@ The **CodeAlpha Music Player** is a modern, responsive, and feature-rich web mus
 
 It provides a smooth user experience with elegant animations, responsive layouts, interactive controls, and a beautiful glassmorphism-inspired interface.
 
-The application demonstrates strong knowledge of DOM manipulation, Audio API, Local Storage, event handling, responsive design, and modern UI development.
+The application demonstrates strong knowledge of DOM manipulation, Audio API, Local Storage, event handling, responsive design, and modern UI/UX development.
 
 ---
 
